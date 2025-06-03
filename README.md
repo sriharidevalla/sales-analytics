@@ -1,47 +1,51 @@
-﻿Mall Customers Data Cleaning Project HR Elevate Labs – Data Analyst Internship Task
 
-Project Purpose & Background
+# Amazon Sales Dashboard Report
 
-This project focuses on cleaning and preprocessing the Mall Customers dataset to transform raw data into a clean, structured format ready for insightful analysis and visualization. High-quality, clean data enables businesses to better understand customer demographics and behaviors, leading to smarter targeting and improved decision-making.
+ Overview
 
-Project Overview
+This project analyzes Amazon's sales data using various visualizations to derive insights related to sales trends, regional performance, product profitability, and shipping preferences. The visualizations and the report aim to help businesses optimize their sales strategies, shipping logistics, and customer service. 
 
-As part of my Data Analyst internship at HR Elevate Labs, this task involved preparing the dataset for advanced analytical tasks such as customer segmentation and clustering, which are crucial for marketing strategies and customer relationship management.
+The dataset used in this project includes information such as:
 
-Tools & Technologies Used
+- Product categories and sub-categories
+- Regional sales and performance
+- Sales trends over time
+- Profit distribution by category
 
-- Python 3
-- Pandas, NumPy for data manipulation
-- Matplotlib, Seaborn for exploratory data visualization
-- Jupyter Notebook for interactive coding
-- Dataset: Mall Customer Segmentation Data.csv (from Kaggle)
+ Key Visualizations
 
-Repository Contents
+1. Sales Trend Over Time  
+   - Shows the overall sales performance with peaks during the holiday months (November and December).
+   
+2. Regional Sales Breakdown  
+   - Visualizes total sales by region, helping identify key markets for targeted marketing and logistics optimization.
+   
+3. Profit Distribution by Product Category  
+   - Shows which product categories are the most profitable, highlighting areas for improvement in low-profit categories.
 
-- mall~~ customers~~ cleaning.ipynb — Complete data cleaning workflow
-- Mall~~ Customers.csv — Original raw dataset
-- cleaned~~ mall~~ customers.csv — Final cleaned dataset
-- README.md— Project documentation and summary
+ Tools Used
 
-Data Cleaning Process Overview
+- Python (for data analysis and visualization)
+- Matplotlib (for generating charts and graphs)
+- FPDF (for generating the PDF report)
 
+ How to Use
 
+1. Clone the repository.
+2. Download the required dataset (CSV file).
+3. Run the Python script to generate the visualizations.
+4. Generate the PDF report that includes the visualizations and insights.
 
-|Step|Description|
-| - | - |
-|Missing Values|Checked using .isnull(), handled appropriately|
-|Duplicate Entries|Identified and removed duplicates using .drop~~ duplicates()|
-|Column Renaming|Standardized column names to lowercase with un- derscores|
-|Data Types|Verified and corrected data types (e.g., int, object)|
-|Value Formatting|Cleaned and standardized categorical data values|
-|EDA Preparation|Cleaned dataset made ready for clustering and visu- alization|
+ Business Implications
 
-Outcomes & Key Learnings
+- Sales trends: Helps prepare for seasonal sales peaks and improve inventory management.
+- Regional sales performance: Insights can help focus marketing efforts and optimize logistics in key regions.
+- Profitability analysis: Re-evaluate pricing strategies and cost management for low-profit product categories.
 
-- Gained practical experience in data preprocessing with Pandas
-- Developed skills to efficiently handle missing values, duplicates, and formatting
-- Prepared data that enhances the quality of downstream analysis and modeling
-- Understood the critical role of data cleaning in generating reliable business insights
+ Conclusion
+
+The analysis and visualizations in this project provide a strong foundation for businesses to improve their sales strategies, customer service, and overall profitability.
+
 
 Contact
 
@@ -50,4 +54,3 @@ Srihari Devalla
 GitHub: [sriharidevalla](https://github.com/sriharidevalla)
 
 Email: sriharidevalla1@gmail.com
-2
